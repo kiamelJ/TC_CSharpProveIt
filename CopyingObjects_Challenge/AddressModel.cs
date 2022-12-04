@@ -1,6 +1,6 @@
 ﻿namespace CopyingObjects_Challenge
 {
-    public class AddressModel : ICloneable
+    public class AddressModel
     {
         public string StreetAddress { get; set; }
         public string City { get; set; }
@@ -12,14 +12,12 @@
 
         }
 
-        public AddressModel(AddressModel adress)
+        public AddressModel(AddressModel addressToCopy)
         {
-            StreetAddress = adress.StreetAddress;
-        }
-
-        public object Clone()
-        {
-            return new AddressModel(this);
+            StreetAddress = addressToCopy.StreetAddress;
+            City = addressToCopy.City;
+            State = addressToCopy.State;
+            ZipCode = addressToCopy.ZipCode;
         }
     }
 }

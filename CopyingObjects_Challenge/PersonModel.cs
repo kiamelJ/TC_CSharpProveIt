@@ -1,9 +1,7 @@
 ﻿namespace CopyingObjects_Challenge
 {
-    public class PersonModel : ICloneable
+    public class PersonModel
     {
-        AddressModel address = new AddressModel();
-
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime DateOfBirth { get; set; }
@@ -14,17 +12,16 @@
 
         }
 
-        public PersonModel(PersonModel person)
+        public PersonModel(PersonModel personToCopy)
         {
-            FirstName = person.FirstName;
-            LastName = person.LastName;
-            DateOfBirth = person.DateOfBirth;
-            Addresses = (AddressModel)person.Addresses.;
-        }
-
-        public object Clone()
-        {
-            return new PersonModel(this);
+            FirstName = personToCopy.FirstName;
+            LastName = personToCopy.LastName;
+            DateOfBirth = personToCopy.DateOfBirth;
+            foreach (var originalAddress in personToCopy.Addresses)
+            {
+                var newAdress = new AddressModel(originalAddress);
+                Addresses.Add(newAdress);
+            }
         }
     }
 }
