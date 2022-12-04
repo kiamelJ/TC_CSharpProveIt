@@ -58,7 +58,8 @@ namespace CopyingObjects_Challenge
             // sätter värdena. Du har även en tom ctor där men den är bara för att kunna skapa ett objekt
             // utan inpara. Genom konstruktorn så skickar man in firstPerson vilket sätter urpsprungsvärdena
             // som man sedan kan ändra i secondPerson utan att det påverkar originalvärdena. Även detta är en 
-            // deep copy
+            // deep copy. Fördelen men den här konstruktormetoden är att man har mycket mera kontroll, man kan
+            // välja vilka delar man har tillgång till att kopiera t ex.
 
             secondPerson = new PersonModel(firstPerson);
 
