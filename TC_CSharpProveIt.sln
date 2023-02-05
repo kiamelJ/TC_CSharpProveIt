@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foreach_Challenge", "Foreach_Challenge\Foreach_Challenge.csproj", "{994C1B2F-04A9-4235-989B-5755D2629944}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foreach_Challenge", "Foreach_Challenge\Foreach_Challenge.csproj", "{994C1B2F-04A9-4235-989B-5755D2629944}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime_Challenge", "DateTime_Challenge\DateTime_Challenge.csproj", "{27FFBB6D-9871-446A-8F0C-0D5904A950D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTime_Challenge", "DateTime_Challenge\DateTime_Challenge.csproj", "{27FFBB6D-9871-446A-8F0C-0D5904A950D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyingObjects_Challenge", "CopyingObjects_Challenge\CopyingObjects_Challenge.csproj", "{16F72D96-C6F1-4B1E-8723-9B6726DC73C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyingObjects_Challenge", "CopyingObjects_Challenge\CopyingObjects_Challenge.csproj", "{16F72D96-C6F1-4B1E-8723-9B6726DC73C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Birthday_Challenge", "Birthday_Challenge\Birthday_Challenge.csproj", "{6A889C0E-8631-4DE7-A31E-D55792281355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics_Challenge", "Generics_Challenge\Generics_Challenge.csproj", "{DE2593E6-0A49-4ABC-87F6-F0E6FA6ABB3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{16F72D96-C6F1-4B1E-8723-9B6726DC73C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16F72D96-C6F1-4B1E-8723-9B6726DC73C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16F72D96-C6F1-4B1E-8723-9B6726DC73C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A889C0E-8631-4DE7-A31E-D55792281355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A889C0E-8631-4DE7-A31E-D55792281355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A889C0E-8631-4DE7-A31E-D55792281355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A889C0E-8631-4DE7-A31E-D55792281355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE2593E6-0A49-4ABC-87F6-F0E6FA6ABB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2593E6-0A49-4ABC-87F6-F0E6FA6ABB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2593E6-0A49-4ABC-87F6-F0E6FA6ABB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2593E6-0A49-4ABC-87F6-F0E6FA6ABB3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
