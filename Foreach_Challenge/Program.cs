@@ -21,7 +21,7 @@
             persons.Add(new Persons { FirstName = "Tim", LastName = "Corey" });
             persons.Add(new Persons { FirstName = "Mike", LastName = "Jones" });
             persons.Add(new Persons { FirstName = "Sue", LastName = "Storm" });
-            persons.Add(new Persons { FirstName = "John", LastName = "Doe" });
+            persons.Add(new Persons { FirstName = "Super", LastName = "Man" });
 
             return persons;
         }
